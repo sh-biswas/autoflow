@@ -1,5 +1,5 @@
 from click.testing import CliRunner
-from autoflow.main import new, hello
+from .autoflow.main import new, hello
 
 def test_new():
     runner = CliRunner()
