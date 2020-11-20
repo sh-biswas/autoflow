@@ -15,4 +15,3 @@ def test_hello():
     result = runner.invoke(hello)
     assert result.exit_code == 0
     assert result.output.rstrip("\n") == 'Hello'
-    
